@@ -1,10 +1,10 @@
-# Jatin_102116096_Mashup
+# 102016098_Mashup
 
 python code for Download N videos of X singer from “Youtube”  then Convert all the videos to audio and Cut first Y sec audios from all downloaded files. Merge all audios to make a single output file.
 
 ## FUNCTIONS
 
-### 102116096.py
+### 102016098.py
   - get_videos(singer_name, num_videos): Searches YouTube for videos of the specified singer and returns a list of video URLs.
   - download_video(video_url, save_path): Downloads the video from the provided URL and saves it to the specified path.
   - convert_to_mp3(video_title, save_path): Converts the downloaded video to MP3 format.
@@ -15,7 +15,7 @@ python code for Download N videos of X singer from “Youtube”  then Convert a
   - main(): Entry point of the script that parses command-line arguments (singer name, number of videos, duration, output filename) and calls mashup() with those arguments.
 
 To run code
-python 102116096.py 
+python 102016098.py
 
 ### app.py
 
